@@ -1,0 +1,9 @@
+
+
+<div class="col-lg-3">
+    <h2 class="text-primary"> Hero Details </h2>
+  <ul *ngFor="let hero of heroes" class="bg-secondary text-white">
+    <span>Id : {{hero.id}}</span>  <br>
+    <span> Name : {{hero.name | uppercase}}</span>
+  </ul>
+</div>

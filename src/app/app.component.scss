@@ -1,0 +1,15 @@
+.upperdiv{
+    background: palevioletred;
+    padding: 1rem;
+    h1{
+        font-size: 1rem;
+        color: darkslateblue;
+    }
+}
+
+.row{
+    margin: 0;
+    .col-lg-4{
+        padding: 0;
+    }
+}

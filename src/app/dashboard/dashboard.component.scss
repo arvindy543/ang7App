@@ -1,0 +1,24 @@
+.navbar {
+  padding: 0rem 1rem;
+  ul.navbar-nav {
+    li {
+      a {
+        font-size: 0.905rem;
+        font-weight: 300;
+        color: cornsilk;
+        border-radius:2rem;
+        &:hover {
+          background-color: #070c31;
+        }
+      }
+      a.active {
+        background-color: #000;
+        color: #fff;
+        font-weight: 400;
+        &:hover {
+          background-color: #070c31!important;
+        }
+      }
+    }
+  }
+}
